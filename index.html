@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="fabian blanke">
+  <title>Javascript Rekenmachine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="picture/logo.png" id="logo">
+</head>
+<body>
+        <nav>
+           <a class="#">
+             <img src="picture/logo.png" class="img-fluid">
+           </a>
+        </nav>
+        
+    <pre>
+    <div class="inputs" id="inputs">
+      <h1>Javascript Rekenmachine</h1>
+      Voer een getal in:          <input type="number" id="getal_1" min="-100" max="100">
+
+      Voer een tweede getal in:   <input type="number" id="getal_2" min="-100" max="100">
+
+      Zelf berekende uitkomst:    <input type="number" id="getal_3" min="-100" max="100">
+
+      </pre>
+
+    </div>
+
+      <p id="uitkomst">De uitkomst is:</p>
+
+      <p id="eigenberekening">Het door jou berekende antwoord is: </p>
+
+      
+      <button type="button" id="knop1"
+              class="knopje"
+              onclick="BerekenSom()"> + </button>
+      
+
+      
+      <button type="button" id="knop2"
+              class="knopje"
+              onclick="Aftrekken()"> - </button>
+      
+
+           
+      <button type="button" id="knop3"
+              class="knopje"
+              onclick="Delen()"> ÷ </button>
+      
+
+      
+      <button type="button" id="knop4"
+              class="knopje"
+              onclick="Vermenigvuldig()"> * </button>
+      
+    
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
