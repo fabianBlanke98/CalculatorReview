@@ -33,37 +33,3 @@ displayed.
 
 this is the current Code i have, i just have no idea on how to make this Javascript code work, i cant seem to find the awnser i need anywhere. please help
 
-
-
-
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Calculator</title>
-    
-  </head>
-  <body>
-  <pre>
-    <h1>Javascript Calculator</h1>
-    Enter a number:         <input type="number" name="" id="number_1">
-    Enter a second number:  <input type="number" name="" id="number_2">
-    Self calculated number:   <input type="number" name="" id="number_3">
-
-    Get Result: <input type="number" name="" id="number_3">
-  </pre> 
-
-
-        <div class="calculate">
-            <button type="button" class="button">addup</button>
-            <button type="button" class="button">Substraction</button>
-            <button type="button" class="button">Divide</button>
-            <button type="button" class="button">Multiply</button>
-        </div>
-
-
-        <script src="./app.js"></script>
-  </body>
-</html>
